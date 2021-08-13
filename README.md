@@ -30,6 +30,34 @@ Please answer the following questions below, you may edit the readme file to inc
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
+Please answer the following questions below, you may edit the readme file to include your answers below the question.
+
+1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility on the web is about makeing the internet accessible to all. We need to understand that people with disabilities need access to the sites we design. They rely on screen readers and other devices to gain access to the web. We must not assume that everyone has perfect vision.
+ 
+
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+As web designers, we can use semantic HTML tags, so that machines can know what our pages are about. We also must use scalable units of measurement so that those with visual impairments can read the content on our sites. We can also fill out our alt attributes for the images we use, in case a person cannot see the image, the screen reader can read the description.
+
+3. How would you explain the concept of a variable to someone new to programming?
+
+Brit used the metaphor of a variable being like a jar that you put a label on and put it on the shelf. A variable is a container for information, and it can be re-named and re-assigned as needed. 
+
+4. What is the purpose of using functions in code?
+
+Functions are like minature programs that accomplish taks, and ideally they can be re-used for different tasks.
+
+5. How do you access a key inside of an object inside of an array?
+
+Two ways to access a key inside the object: 
+
+bracket notataion []
+and dot notation array.firstName 
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+
 ## Instructions
 
 ### Task 1: Project Set-Up
