@@ -23,38 +23,28 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
-5. How do you access a key inside of an object inside of an array?
 
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
-
-Please answer the following questions below, you may edit the readme file to include your answers below the question.
-
-1. How would you describe acessibility on the web to someone new to programming?
-
-Accessibility on the web is about makeing the internet accessible to all. We need to understand that people with disabilities need access to the sites we design. They rely on screen readers and other devices to gain access to the web. We must not assume that everyone has perfect vision.
+Accessibility on the web is about making the internet accessible to all. Developers must understand that people with disabilities need access to the sites we design, and we can aid in this effort through various means. Persons with vision impairment rely on screen readers and other devices to gain access to the web, for example. We mustn't assume that everyone has perfect vision.
  
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
 
-As web designers, we can use semantic HTML tags, so that machines can know what our pages are about. We also must use scalable units of measurement so that those with visual impairments can read the content on our sites. We can also fill out our alt attributes for the images we use, in case a person cannot see the image, the screen reader can read the description.
+As web designers, we can use semantic HTML tags, so that machines can know what our pages are about. We can also use scalable units of measurement so that those with visual impairments can read the content on our sites. We can fill out our alt attributes for our images, in case a person cannot see the image, the screen reader can read the description.
 
 3. How would you explain the concept of a variable to someone new to programming?
 
-Brit used the metaphor of a variable being like a jar that you put a label on and put it on the shelf. A variable is a container for information, and it can be re-named and re-assigned as needed. 
+Brit used the metaphor of a variable being like a jar that you put a label on, and put it on the shelf. A variable is a container for information, and it can be re-named and re-assigned as needed. 
 
 4. What is the purpose of using functions in code?
 
-Functions are like minature programs that accomplish taks, and ideally they can be re-used for different tasks.
+Functions are like minature programs that accomplish tasks, and ideally they can be re-used for different tasks. One can use the same function over and over again to perform various tasks, as long as it is coded with generic language, without too much detail "hard-wired" into the code.
 
 5. How do you access a key inside of an object inside of an array?
 
 Two ways to access a key inside the object: 
 
-bracket notataion []
-and dot notation array.firstName 
+bracket notataion:  []
+and dot notation:  array.firstName 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
