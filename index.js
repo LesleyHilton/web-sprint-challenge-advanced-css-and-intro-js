@@ -246,17 +246,11 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(array){}
 
-
-
-    // for (i = 0; i < array.length; i++){ 
-    //   bornDied = array[i].years.split(' - ');
-    //       if (bornDied[0][0] === "1" && bornDied[0][1] ==={
-       
-  
-
-
+function get20s(array){
+  const twenties = [array[5].name, array[17].name];
+  return twenties;
+}
 
 
 
@@ -269,8 +263,9 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function removeArtist(array, index) {
+  array.splice(index, 1);
+  return array.length;
 }
 
 
@@ -290,8 +285,18 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+const newArtist = {
+  "id": 20,
+  "name": "Chad Eckles", 
+  "years": "1983 - 2021",
+  "genre": "Web Design", 
+  "nationality": "USA",
+  "bio": "The lorem ipsum is a placeholder text used in publishing and graphic design. This filler text is a short paragraph that contains all the letters of the alphabet. The characters are spread out evenly so that the reader's attention is focused on the layout of the text instead of its content." 
+}
+
+function addArtist(array) {
+  array.push(newArtist);
+  return array;
 }
 
 
@@ -303,8 +308,14 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lotsOfArt(array) {
+  const moreThan100 = [];
+   for (let i = 0; i < array.length; i++){
+    if(array[i].paintings > 100){
+      moreThan100.push(array[i].name);
+    }
+    return moreThan100;
+  }
 }
 
 
